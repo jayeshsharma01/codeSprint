@@ -6,11 +6,10 @@ int sum (int a , int b)
 }
 
 int main() {
-    int a,b,c;
+    int a,b;
     printf("please enter 2 integers\n");
     scanf("%d %d",&a,&b);
-    c= sum(a,b);
-    printf("sum of %d and %d is %d",a,b,c);
+    printf("sum of %d and %d is %d",a,b,sum(a,b));
     
     
     return 0;
