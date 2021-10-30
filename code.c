@@ -5,6 +5,8 @@ int sum (int a , int b)
  return c;
 }
 
+# this is my c code for sum
+
 int main() {
     int a,b;
     printf("please enter 2 integers\n");
